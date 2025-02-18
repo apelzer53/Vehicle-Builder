@@ -5,14 +5,14 @@ import Wheel from './Wheel.js';
 // Car class that extends Vehicle class
 class Car extends Vehicle {
   // Declare properties of the Car class
-  vin: string;
-  color: string;
-  make: string;
-  model: string;
-  year: number;
-  weight: number;
-  topSpeed: number;
-  wheels: Wheel[];
+  override vin: string;
+ override  color: string;
+ override  make: string;
+ override model: string;
+ override  year: number;
+  override weight: number;
+  override topSpeed: number;
+  override wheels: Wheel[];
 
   // Constructor for the Car class
   constructor(
@@ -26,7 +26,7 @@ class Car extends Vehicle {
     wheels: Wheel[]
   ) {
     // Call the constructor of the parent class, Vehicle
-    super();
+    super(vin, color, make, model, year, weight, topSpeed, wheels);
 
     // Initialize properties of the Car class
     this.vin = vin;
