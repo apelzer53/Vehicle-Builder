@@ -17,7 +17,7 @@ file:///Users/ashleepelzer/Desktop/8.webm
 - [Credits](#credits)
 - [License](#license)
 
-  ## Installation
+## Installation
 To run this application locally, follow these steps:
 Clone the repository, navigate to the correct folder, install dependencies (npm install), start application (npm start).
 
